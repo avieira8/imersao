@@ -1,0 +1,39 @@
+body {
+   background-image: url("https://s17736.pcdn.co/wp-content/uploads/2019/04/03-deep-blue-1024x576.jpg");
+   background-size: auto 100vh;
+   font-family: Arial;
+   height:  100vh;
+   
+}
+
+.menu {
+   background-color: white;
+}
+
+.menu ul {
+   display: flex;
+   justify-content: space-around;
+}
+
+.menu li {
+   list-style: none;
+}
+
+a {
+   color: teal;
+   text-decoration: none;
+   
+}
+
+a:hover {
+   text-decoration: red underline;
+}
+
+.site-subtitle, .site-title {
+   color: whitesmoke;
+   text-align: center;
+}
+
+.site-subtitle {
+   font-style: italic;   
+}
